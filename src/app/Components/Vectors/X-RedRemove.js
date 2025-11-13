@@ -1,19 +1,19 @@
 import * as React from "react";
-const CorrectThin = ({ className, ...props }) => (
+const XRemoveRed = ({ className, ...props }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={12}
+    width={9}
     height={9}
     fill="none"
     {...props}
     className={className}
   >
     <path
-      stroke="#E4E4E7"
+      stroke="#EF4444"
       strokeLinecap="round"
       strokeLinejoin="round"
-      d="M11.167.5 3.833 7.833.5 4.5"
+      d="m8.5.5-8 8m0-8 8 8"
     />
   </svg>
 );
-export default CorrectThin;
+export default XRemoveRed;

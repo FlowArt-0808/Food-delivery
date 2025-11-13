@@ -1,10 +1,8 @@
 import Image from "next/image";
-import UserForm from "./UserForm/UserForm";
+import UserForm from "./_UserForm/UserFormStepOne";
 
-export default function Home() {
-  return (
-    <div className="flex flex-col bg-white">
-<UserForm/>
-    </div>
-  );
-}
+const Home = () => {
+  return <div className="flex flex-col">Hello from Home</div>;
+};
+
+export default Home;

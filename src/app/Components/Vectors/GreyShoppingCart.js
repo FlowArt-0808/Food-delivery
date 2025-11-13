@@ -1,26 +1,19 @@
-import * as React from "react"
-const GreyShoppingCart = () => (
+import * as React from "react";
+const GreyShoppingCart = ({ className, ...props }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width={15}
-    height={19}
+    height={15}
     fill="none"
     {...props}
+    className={className}
   >
     <path
-      stroke="#EF4444"
+      stroke="#18181B"
       strokeLinecap="round"
       strokeLinejoin="round"
-      strokeWidth={1.5}
-      d="M14.083 7.417c0 5-6.666 10-6.666 10s-6.667-5-6.667-10a6.667 6.667 0 0 1 13.333 0Z"
-    />
-    <path
-      stroke="#EF4444"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={1.5}
-      d="M7.417 9.917a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z"
+      d="M.5.5h1.333l1.774 8.28A1.333 1.333 0 0 0 4.94 9.833h6.52a1.333 1.333 0 0 0 1.3-1.046l1.1-4.954H2.547m2.586 9.3a.667.667 0 1 1-1.333 0 .667.667 0 0 1 1.333 0Zm7.334 0a.667.667 0 1 1-1.334 0 .667.667 0 0 1 1.334 0Z"
     />
   </svg>
-)
-export default GreyShoppingCart
+);
+export default GreyShoppingCart;
