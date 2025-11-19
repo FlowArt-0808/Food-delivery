@@ -1,11 +1,14 @@
-import { RegisterStep1 } from "./registerStep1";
-import { RegisterStep2 } from "./registerStep1";
+"use client"
 
-export const register = () => {
-  <>
+import  Step1  from "./Step1";
+import  Step2  from "./Step1";
+
+ const register = () => {
+  return (
     <div>
-      <RegisterStep1 />
-      <RegisterStep2 />
+      <Step1 />
+      <Step2 />
     </div>
-  </>;
+)
 };
+export default register
